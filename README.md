@@ -50,3 +50,16 @@ WHERE level = 'magistrale'
 SELECT * 
 FROM departments;
 ```
+oppure
+
+```SQL
+SELECT count (*) 
+FROM departments;
+```
+
+
+### 8. Quanti sono gli insegnanti che non hanno un numero di telefono? (50)
+
+```SQL
+
+```
