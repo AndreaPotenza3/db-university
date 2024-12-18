@@ -74,3 +74,18 @@ WHERE phone is NULL
 INSERT INTO students 
 VALUE ('5001', '44', 'Andrea', 'Potenza', '1994-01-04','PTNNDR94A04L419A', '2019-09-12', '625033', 'andreapoten3@gmail.com')
 ```
+
+### 10. Cambiare il numero dell’ufficio del professor Pietro Rizzo in 126
+
+```SQL
+UPDATE teachers
+SET office_number = '126'
+WHERE id = '58'
+```
+
+### 11. Eliminare dalla tabella studenti il record creato precedentemente al punto 9
+
+```SQL
+DELETE FROM students
+WHERE id = '5001'
+```
