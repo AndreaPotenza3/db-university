@@ -71,7 +71,6 @@ WHERE phone is NULL
 ### 9. Inserire nella tabella degli studenti un nuovo record con i propri dati (per il campo degree_id, inserire un valore casuale)
 
 ```SQL
-SELECT * 
-FROM teachers
-WHERE phone is NULL
+INSERT INTO students 
+VALUE ('5001', '44', 'Andrea', 'Potenza', '1994-01-04','PTNNDR94A04L419A', '2019-09-12', '625033', 'andreapoten3@gmail.com')
 ```
