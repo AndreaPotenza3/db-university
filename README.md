@@ -36,3 +36,11 @@ FROM exams
 WHERE date = '2020/06/20'
 AND hour > '13%'
 ```
+
+### 6. Selezionare tutti i corsi di laurea magistrale (38)
+
+```SQL
+SELECT * 
+FROM degrees
+WHERE level = 'magistrale'
+```
