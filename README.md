@@ -61,5 +61,7 @@ FROM departments;
 ### 8. Quanti sono gli insegnanti che non hanno un numero di telefono? (50)
 
 ```SQL
-
+SELECT * 
+FROM teachers
+WHERE phone is NULL
 ```
